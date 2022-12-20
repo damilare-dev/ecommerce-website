@@ -1,0 +1,123 @@
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    #newstxt{
+        clear: both;
+        /* margin-top: 200px; */
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    #newstxt > h2{
+        margin-bottom: 5px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    #newstxt > p {
+        margin-bottom: 15px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    
+    #newstxt input{
+        width: 30%;
+        height: 30px;
+    }
+
+    #newstxt button{
+        background-color: rgb(248, 131, 121);
+        height:30px;
+        color: white;
+        width: 7%;
+        border: 0;
+    }
+
+    footer{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 30px;
+        padding: 50px 180px;
+        background-color: rgb(52, 52, 52);
+    }
+
+    footer > div{
+        float: left;
+        padding: 10px 30px;
+    }
+
+    footer > div > h3{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 7px 0px;
+        color: rgb(223, 219, 219);
+    }
+    footer > div> li{
+        list-style-type: none;
+        padding: 2px 0;
+    }
+
+    footer > div> li > a{
+        text-decoration: none;
+        color: rgb(145, 141, 141);
+        display: inline-block;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    footer > div> li > a:hover{
+        color: purple;
+    }
+
+    #smic{
+        border: 1px solid white;
+        padding: 3px 5px;
+        color: rgb(145, 141, 141);
+    }
+    address{
+        display: inline;
+        margin-left: 10px;
+    }
+
+    .ictx{
+        display: block;
+        color: gray;
+        padding: 7px 0;
+    }
+
+    #pho{
+        display: inline;
+        margin-left: 10px;
+    }
+
+    #msg{
+        display: inline;
+        margin-left: 10px;
+    }
+
+    @media(max-width:450px){
+        #newstxt{
+            width: 100%;
+        }
+
+        #newstxt > input{
+            width: 250px;
+        }
+
+        #newstxt > button{
+            width: 20%;
+        }
+
+        footer{
+            width: 100%;
+            /* text-align: center; */
+        }
+
+        footer > div{
+            display: flex;
+            width: 100%;
+             flex-wrap: wrap;
+            flex-direction: column;
+        }
+    }

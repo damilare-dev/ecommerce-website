@@ -1,0 +1,366 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#carousel{
+    text-align: center;
+    background-image: url(/images/fashion2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 400px;
+    position: relative;
+    width: 100%;
+}
+
+
+#collec{
+    background-color: rgba(220, 220, 220, 0.514);
+    position: absolute;
+    left: 23%;
+    top:40%;
+    text-align: center;
+    width: 50%;
+}
+
+#btexp{
+    top: 60%;
+    left: 45%;
+    padding: 10px;
+    font-size: 18px;
+    color:  rgb(248, 131, 121);
+    position: absolute;
+}
+
+#btexp:hover{
+    background-color: black;
+}
+
+
+#nxtlyr_kid{
+  text-align: center;
+    background-image: url(/images/baby-1399332_640.jpg);
+    height: 300px;
+    width: 32%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+
+
+#nxtlyr_wmen{
+    text-align: center;
+      background-image: url(/images/girl-from-behind-1741699_960_720.jpg);
+      height: 300px;
+      width: 32%;
+      background-repeat: no-repeat;
+      background-size:cover;
+      position: relative;
+}
+
+
+  
+#nxtlyr_men{
+    text-align: center;
+      background-image: url(/images/men2.jpg);
+      height: 300px;
+      width: 32%;
+      background-repeat: no-repeat;
+      background-size:cover;
+      position: relative;
+}
+
+.bt2{
+    position: absolute;
+    top: 72%;
+    left: 35%;
+    width: 30%;
+    padding: 6px;
+    color:  rgb(248, 131, 121);
+    border-radius: 10px;
+}
+
+.bt2:hover{
+    background-color: black;
+}
+
+.txt2{
+    position: absolute;
+    top: 56%;
+    color: white;
+    font-size: 33px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 30.5%;
+}
+
+#nxtlyr1{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px;
+}
+
+#flsls{
+    text-align: center;
+    margin-top: 80px;
+}
+
+#flsls > h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 2px solid  rgb(248, 131, 121);
+    width: 30%;
+    font-size: 30px;
+    margin-left: 35%;
+    text-align: center;
+}
+
+#sls{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 30px;
+}
+
+.sls{
+    width: 23%;
+    padding: 30px 5px;
+}
+
+.sls > h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+.sls > p{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.imgsls{
+    width: 100%;
+    height: 350px;
+    background-color: rgba(220, 220, 220, 0.315);
+}
+
+
+.posit{
+    background-color: green;
+    width: 5%;
+    color: white;
+    position: absolute;
+    padding: 5px 0px;
+}
+
+.posit:hover{
+    background-color: blue;
+}
+
+.posit1:hover{
+    background-color: blue;
+}
+
+.posit1{
+    background-color: red;
+    width: 5%;
+    color: white;
+    position: absolute;
+    padding: 5px 0px;
+}
+
+.shpnw{
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: 0;
+    background-color: rgb(248, 131, 121);
+}
+
+.shpnw:hover{
+    background-color: black;
+}
+
+#imgtrnd{
+    height: 230px;
+    width: 100%;
+}
+
+#trnd{
+    width: 80%;
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+
+#tptrnd{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#tptrnd > h2{
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 2px solid  rgb(248, 131, 121);
+    width: 30%;
+    font-size: 30px;
+    margin-left: 35%;
+    text-align: center;
+}
+
+.ctinfo{
+    width: 25%;
+    padding: 50px 15px;
+    text-align: center;
+    color: white;
+}
+
+.ctinfo > p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#ctinfo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    background-color: rgb(12, 12, 12);
+}
+
+#phic1{
+    color:  rgb(248, 131, 121);
+    padding: 10px 0;
+    display: block;
+}
+
+#hmic1{
+    color:  rgb(248, 131, 121);
+    display: block;
+    padding: 10px 0;
+}
+
+#blg{
+    margin-top: 30px;
+}
+
+#blg > h2{
+    padding: 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 30%;
+    color:  rgb(248, 131, 121);
+    font-size: 30px;
+    margin-left: 35%;
+    text-align: center;
+}
+
+.blg{
+    width: 30%;
+}
+
+.blg > p{
+    padding: 15px 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+.imgblg{
+    width: 100%;
+    height: 250px;
+}
+
+#blgflx{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 40px;
+}
+
+@media(max-width:450px){
+
+    #carousel > div{
+        width: 100%;
+    }
+    #collec{
+        width: 80%;
+        position: absolute;
+        left: 10%;
+    }
+
+    #btexp{
+        position: absolute;
+        left: 40%;
+    }
+
+    #nxtlyr1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #nxtlyr_wmen{
+        width: 100%;
+    }
+
+    
+    #nxtlyr_men{
+        width: 100%;
+    }
+
+    
+    #nxtlyr_kid{
+        width: 100%;
+    }
+
+    .sls{
+        width: 100%;
+        display: flex;
+        padding: 15px 0;
+        flex-direction: column;
+    }
+
+    .posit{
+        width: 10%;
+    }
+
+    
+    .posit1{
+        width: 10%;
+    }
+
+    #flsls > h2{
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+
+    #trnd{
+        text-align: center;
+        width: 70%;
+        margin-left: 60px;
+    }
+
+    #imgtrnd{
+        width: 100%;
+    }
+
+    #tptrnd > h2{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .ctinfo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #blgflx{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .blg{
+        width: 100%;
+    }
+}

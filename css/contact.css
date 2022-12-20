@@ -1,0 +1,143 @@
+
+*{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+ }
+
+
+ section{
+    background-color: gainsboro;
+    padding: 25px 40px;
+ }
+
+ section > div{
+    background-color: white;
+    /* padding: 20px; */
+    width: 100%;
+    /* height:850px; */
+ }
+
+  #assist{
+    text-align: center;
+    padding: 40px 20px;
+ }
+
+ #assist > h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+ }
+
+ 
+ #assist > p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+ }
+
+ #map{
+    width: 100%;
+    height: 400px;
+ }
+
+ #txtinfo{
+    width: 70%;
+    /* float: left; */
+    padding: 20px;
+ }
+
+ #txtshp{
+    display: flex;
+ }
+
+ .inp{
+    width: 45%;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-right: 40px ;
+    box-shadow: 1px 1px 0px -1px;
+ }
+
+ textarea{
+    width: 45%;
+    margin-bottom: 20px;
+    margin-right: 40px ;
+}
+
+#submit{
+    width: 10%;
+    height: 30px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 0px -1px;
+    color:  rgb(248, 131, 121);
+    border: 3px groove  rgb(248, 131, 121);
+}
+
+#dsp{
+    width: 25%;
+    /* padding: 30px 10px;   */
+}
+
+#dsp h3{
+    color:  rgb(248, 131, 121);
+    font-size: 25px;
+    padding: 10px 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.ict{
+    padding: 10px 0;
+}
+
+#addy{
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+#hmic1{
+    color:  rgb(248, 131, 121);
+}
+
+
+#phic1{
+    color:  rgb(248, 131, 121);
+}
+
+#msg1{
+    margin-right: 5px;
+    color:  rgb(248, 131, 121);
+}
+
+#dsp p{
+    padding: 15px 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media(max-width:450px){
+    
+
+    #txtshp{
+        float: none;
+        display: block;
+    }
+
+    #txtinfo{
+        width: 100%;
+        float: none;
+        flex-wrap: nowrap;
+    }
+
+    .inp{
+        width: 80%;
+    }
+
+    #submit{
+        width: 20%;
+    }
+
+    #dsp{
+        /* float: none; */
+        display:inline;
+        /* padding: 0 50px; */
+        width: 10%;
+        text-align: center;
+    }
+
+}

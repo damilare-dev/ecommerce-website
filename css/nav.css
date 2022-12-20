@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+   display: flex;
+   padding: 25px 10px;
+   width: 100%;
+       text-align: center;
+   /* margin-top: 10px; */
+   /* justify-content: space-between; */
+   justify-content: space-evenly;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+    color: white;
+}
+
+nav a:hover{
+    color: purple;
+}
+
+nav{
+    background-color: rgb(248, 131, 121);
+    /* margin-top: 20px; */
+    height: 40px;
+}
+
+
+#shop{
+    color:  rgb(248, 131, 121);
+    /* clear: both; */
+}
+
+#srchbr{
+    width: 300px;
+    height: 37px;
+    padding: 10px;
+}
+
+
+#search{
+    background-color: rgb(248, 131, 121);
+    padding: 9.25px;
+    color: white;
+    /* font-size: 20px; */
+}
+
+#cart{
+    color:  rgb(248, 131, 121);
+    font-size: 50px;
+    /* display: block; */
+    float: left;
+    width: 35%;
+    padding-left: 15px;
+}
+
+#lgtxt > h3{
+    font-size: 25px;
+    clear: both;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#lgtxt > h1{
+    padding-right: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#ordr{
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#ordric{
+    font-size: 30px;
+    color:  rgb(248, 131, 121);
+    padding: 10px 0;
+}
+
+
+#face{
+    background-image: url(/images/edit-woman.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 300px;
+    position: relative;
+    width: 100%;
+  }
+
+  #face > p{
+    font-size: 50px;
+    color: whitesmoke;
+    position: absolute;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 45%;
+    top: 35%;
+  }
+
+  #face > h4{
+    color: whitesmoke;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 48%;
+    top: 55%;
+  }
+
+  #face > h4 > a{
+    text-decoration: none;
+    color:  rgb(248, 131, 121);
+  }
+
+  #face > h4 > a:hover{
+    color: purple;
+  }
+
+  @media(max-width: 450px){
+    header{
+        width: 100%;
+        float: none;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav{
+        width: 100%;
+    }
+    
+    nav ul li{
+        float: none;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    #face{
+        width: 100%;
+        position: relative;
+    }
+
+    #face > p{
+        position: absolute;
+        left: 20%;
+        top: 30%;
+        display: inline;
+        padding: 10px 0;
+    }
+
+    
+    #face > h4{
+        position: absolute;
+        left: 50%;
+    }
+
+    #blgarc{
+        position: absolute;
+        top: 10%;
+      }
+  
+     h4#hmblg{
+        position: absolute;
+        top: 50%;
+        left: 40%;
+      }
+  }
+
