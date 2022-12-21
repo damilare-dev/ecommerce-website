@@ -95,7 +95,7 @@ nav{
 
 
 #face{
-    background-image: url(/images/edit-woman.jpg);
+    background-image: url("../images/edit-woman.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     height: 300px;

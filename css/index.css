@@ -6,7 +6,7 @@
 
 #carousel{
     text-align: center;
-    background-image: url(/images/fashion2.jpg);
+    background-image: url("../images/fashion2.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     height: 400px;
@@ -40,7 +40,7 @@
 
 #nxtlyr_kid{
   text-align: center;
-    background-image: url(/images/baby-1399332_640.jpg);
+    background-image: url("../images/baby-1399332_640.jpg");
     height: 300px;
     width: 32%;
     background-repeat: no-repeat;
@@ -51,7 +51,7 @@
 
 #nxtlyr_wmen{
     text-align: center;
-      background-image: url(/images/girl-from-behind-1741699_960_720.jpg);
+      background-image: url("../images/girl-from-behind-1741699_960_720.jpg");
       height: 300px;
       width: 32%;
       background-repeat: no-repeat;
