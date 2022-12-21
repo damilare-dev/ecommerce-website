@@ -63,7 +63,7 @@
   
 #nxtlyr_men{
     text-align: center;
-      background-image: url(/images/men2.jpg);
+      background-image: url("../images/men2.jpg");
       height: 300px;
       width: 32%;
       background-repeat: no-repeat;
